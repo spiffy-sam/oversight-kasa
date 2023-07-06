@@ -1,0 +1,657 @@
+Thu Jul 6 13:27:35 CDT 2023
+./toggle_kasa_switch.sh -device camera -event off -process 1234
+Thu Jul 6 13:28:08 CDT 2023
+./toggle_kasa_switch.sh -device camera -event off -process 1234
+Thu Jul 6 13:29:36 CDT 2023
+./toggle_kasa_switch.sh -device camera -event off -process 1234
+Thu Jul 6 13:31:03 CDT 2023
+./toggle_kasa_switch.sh -device camera -event off -process 1234
+Turning switch off because process: 1234 turned camera off and Total is: -1
+JSON values:
+{ "camera": "0", "microphone": "0" }
+Thu Jul 6 13:31:23 CDT 2023
+./toggle_kasa_switch.sh -device camera -event on -process 1234
+Turning switch on because process: 1234 turned camera on and Total is: 1
+JSON values:
+{ "camera": "1", "microphone": "0" }
+Thu Jul 6 13:31:32 CDT 2023
+./toggle_kasa_switch.sh -device camera -event on -process 1234
+Turning switch on because process: 1234 turned camera on and Total is: 2
+JSON values:
+{ "camera": "2", "microphone": "0" }
+Thu Jul 6 13:31:43 CDT 2023
+./toggle_kasa_switch.sh -device camera -event off -process 1234
+Turning switch on because process: 1234 turned camera off and Total is: 1
+JSON values:
+{ "camera": "1", "microphone": "0" }
+Thu Jul 6 13:32:02 CDT 2023
+./toggle_kasa_switch.sh -device camera -event off -process 1234
+Turning switch off because process: 1234 turned camera off and Total is: 0
+JSON values:
+{ "camera": "0", "microphone": "0" }
+Thu Jul 6 13:32:17 CDT 2023
+/Users/samuelgubler/oversight/toggle_kasa_switch.sh -device camera -event off
+Turning switch off because process:  turned camera off and Total is: -1
+JSON values:
+
+Thu Jul 6 13:37:13 CDT 2023
+/Users/samuelgubler/oversight/toggle_kasa_switch.sh -device camera -event on -process 63386
+Before
+camera: 
+mic: 
+After
+camera: 1
+mic: 
+Turning switch on because process: 63386 turned camera on and Total is: 1
+At Save
+JSON values:
+
+Thu Jul 6 13:37:17 CDT 2023
+/Users/samuelgubler/oversight/toggle_kasa_switch.sh -device microphone -event on -process 63386
+Before
+camera: 
+mic: 
+After
+camera: 
+mic: 1
+Turning switch on because process: 63386 turned microphone on and Total is: 1
+At Save
+JSON values:
+
+Thu Jul 6 13:38:43 CDT 2023
+/Users/samuelgubler/oversight/toggle_kasa_switch.sh -device camera -event off
+Thu Jul 6 13:38:43 CDT 2023
+/Users/samuelgubler/oversight/toggle_kasa_switch.sh -device microphone -event off
+Before
+Before
+camera: 
+camera: 
+mic: 
+mic: 
+After
+After
+camera: -1
+camera: 
+mic: 
+mic: -1
+Turning switch off because process:  turned microphone off and Total is: -1
+Turning switch off because process:  turned camera off and Total is: -1
+At Save
+JSON values:
+
+At Save
+JSON values:
+
+Thu Jul 6 13:41:56 CDT 2023
+/Users/samuelgubler/oversight/toggle_kasa_switch.sh -device camera -event on -process 63386
+Before
+camera: 
+mic: 
+After
+camera: 1
+mic: 
+Turning switch on because process: 63386 turned camera on and Total is: 1
+At Save
+JSON values:
+
+Thu Jul 6 13:42:01 CDT 2023
+/Users/samuelgubler/oversight/toggle_kasa_switch.sh -device microphone -event on -process 63386
+Before
+camera: 
+mic: 
+After
+camera: 
+mic: 1
+Turning switch on because process: 63386 turned microphone on and Total is: 1
+At Save
+JSON values:
+
+Thu Jul 6 13:43:12 CDT 2023
+/Users/samuelgubler/oversight/toggle_kasa_switch.sh -device camera -event off
+Before
+camera: 
+mic: 
+After
+camera: -1
+mic: 
+Turning switch off because process:  turned camera off and Total is: -1
+At Save
+JSON values:
+
+Thu Jul 6 13:44:35 CDT 2023
+/Users/samuelgubler/oversight/toggle_kasa_switch.sh -device camera -event on -process 63386
+Before
+camera: 0
+mic: 
+After
+camera: 1
+mic: 
+Turning switch on because process: 63386 turned camera on and Total is: 1
+At Save
+JSON values:
+
+Thu Jul 6 13:48:35 CDT 2023
+/Users/samuelgubler/oversight/toggle_kasa_switch.sh -device camera -event off
+Before
+camera: 0
+mic: 0
+After
+camera: -1
+mic: 0
+Turning switch off because process:  turned camera off and Total is: -1
+At Save
+Device values:
+0
+0
+Thu Jul 6 13:48:50 CDT 2023
+/Users/samuelgubler/oversight/toggle_kasa_switch.sh -device camera -event on -process 63386
+Before
+camera: 0
+mic: 0
+After
+camera: 1
+mic: 0
+Turning switch on because process: 63386 turned camera on and Total is: 1
+At Save
+Device values:
+0
+1
+0
+0
+Thu Jul 6 13:49:38 CDT 2023
+/Users/samuelgubler/oversight/toggle_kasa_switch.sh -device camera -event on -process 65289
+Thu Jul 6 13:49:38 CDT 2023
+/Users/samuelgubler/oversight/toggle_kasa_switch.sh -device camera -event on -process 65289
+Before
+camera: 0
+1
+mic: 0
+0
+Before
+camera: 0
+1
+After
+mic: 0
+0
+camera: 0
+1
+After
+mic: 0
+0
+camera: 0
+1
+Turning switch off because process: 65289 turned camera on and Total is: 
+mic: 0
+0
+Turning switch off because process: 65289 turned camera on and Total is: 
+At Save
+Device values:
+At Save
+Device values:
+0
+1
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+Thu Jul 6 13:49:50 CDT 2023
+/Users/samuelgubler/oversight/toggle_kasa_switch.sh -device camera -event off
+Before
+camera: 0
+1
+0
+0
+mic: 0
+0
+0
+0
+After
+camera: 0
+1
+0
+0
+mic: 0
+0
+0
+0
+Turning switch off because process:  turned camera off and Total is: 
+At Save
+Device values:
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+Thu Jul 6 13:50:11 CDT 2023
+/Users/samuelgubler/oversight/toggle_kasa_switch.sh -device camera -event on -process 65289
+Before
+camera: 0
+1
+0
+0
+0
+mic: 0
+0
+0
+0
+0
+After
+camera: 0
+1
+0
+0
+0
+mic: 0
+0
+0
+0
+0
+Turning switch off because process: 65289 turned camera on and Total is: 
+At Save
+Device values:
+0
+0
+Thu Jul 6 13:50:13 CDT 2023
+/Users/samuelgubler/oversight/toggle_kasa_switch.sh -device camera -event off
+Before
+camera: 0
+mic: 0
+After
+camera: -1
+mic: 0
+Turning switch off because process:  turned camera off and Total is: -1
+At Save
+Device values:
+0
+0
+Thu Jul 6 13:50:25 CDT 2023
+/Users/samuelgubler/oversight/toggle_kasa_switch.sh -device camera -event off
+Before
+camera: 0
+mic: 0
+After
+camera: -1
+mic: 0
+Turning switch off because process:  turned camera off and Total is: -1
+At Save
+Device values:
+0
+0
+Thu Jul 6 13:50:27 CDT 2023
+/Users/samuelgubler/oversight/toggle_kasa_switch.sh -device camera -event on -process 65289
+Before
+camera: 0
+mic: 0
+After
+camera: 1
+mic: 0
+Turning switch on because process: 65289 turned camera on and Total is: 1
+At Save
+Device values:
+1
+0
+Thu Jul 6 13:50:29 CDT 2023
+/Users/samuelgubler/oversight/toggle_kasa_switch.sh -device camera -event off
+Before
+camera: 1
+mic: 0
+After
+camera: 0
+mic: 0
+Turning switch off because process:  turned camera off and Total is: 0
+At Save
+Device values:
+0
+0
+Thu Jul 6 13:50:52 CDT 2023
+/Users/samuelgubler/oversight/toggle_kasa_switch.sh -device camera -event on -process 63386
+Before
+camera: 0
+mic: 0
+After
+camera: 1
+mic: 0
+Turning switch on because process: 63386 turned camera on and Total is: 1
+At Save
+Device values:
+1
+0
+Thu Jul 6 13:51:02 CDT 2023
+/Users/samuelgubler/oversight/toggle_kasa_switch.sh -device camera -event on -process 65649
+Thu Jul 6 13:51:02 CDT 2023
+/Users/samuelgubler/oversight/toggle_kasa_switch.sh -device camera -event on -process 65649
+Before
+camera: 1
+mic: 0
+After
+camera: 2
+mic: 0
+Turning switch on because process: 65649 turned camera on and Total is: 2
+Before
+camera: 1
+At Save
+mic: 0
+Device values:
+After
+camera: 2
+mic: 0
+Turning switch on because process: 65649 turned camera on and Total is: 2
+At Save
+Device values:
+2
+2
+0
+0
+Thu Jul 6 13:51:15 CDT 2023
+/Users/samuelgubler/oversight/toggle_kasa_switch.sh -device camera -event off
+Before
+camera: 2
+mic: 0
+After
+camera: 1
+mic: 0
+Turning switch on because process:  turned camera off and Total is: 1
+At Save
+Device values:
+1
+0
+Thu Jul 6 13:51:30 CDT 2023
+/Users/samuelgubler/oversight/toggle_kasa_switch.sh -device camera -event off
+Before
+camera: 1
+mic: 0
+After
+camera: 0
+mic: 0
+Turning switch off because process:  turned camera off and Total is: 0
+At Save
+Device values:
+0
+0
+Thu Jul 6 13:51:40 CDT 2023
+/Users/samuelgubler/oversight/toggle_kasa_switch.sh -device microphone -event off
+Before
+camera: 0
+mic: 0
+After
+camera: 0
+mic: -1
+Turning switch off because process:  turned microphone off and Total is: -1
+At Save
+Device values:
+0
+0
+Thu Jul 6 13:51:52 CDT 2023
+/Users/samuelgubler/oversight/toggle_kasa_switch.sh -device camera -event on -process 65835
+Thu Jul 6 13:51:52 CDT 2023
+/Users/samuelgubler/oversight/toggle_kasa_switch.sh -device camera -event on -process 65835
+Before
+camera: 0
+mic: 0
+After
+camera: 1
+mic: 0
+Before
+Turning switch on because process: 65835 turned camera on and Total is: 1
+camera: 0
+mic: 0
+After
+At Save
+camera: 1
+Device values:
+mic: 0
+Turning switch on because process: 65835 turned camera on and Total is: 1
+At Save
+Device values:
+1
+1
+0
+0
+Thu Jul 6 13:52:03 CDT 2023
+/Users/samuelgubler/oversight/toggle_kasa_switch.sh -device camera -event off
+Before
+camera: 1
+mic: 0
+After
+camera: 0
+mic: 0
+Turning switch off because process:  turned camera off and Total is: 0
+At Save
+Device values:
+0
+0
+Thu Jul 6 13:52:39 CDT 2023
+/Users/samuelgubler/oversight/toggle_kasa_switch.sh -device camera -event on -process 63386
+Before
+camera: 0
+mic: 0
+After
+camera: 1
+mic: 0
+Turning switch on because process: 63386 turned camera on and Total is: 1
+At Save
+Device values:
+1
+0
+Thu Jul 6 13:52:42 CDT 2023
+/Users/samuelgubler/oversight/toggle_kasa_switch.sh -device camera -event on -process 65835
+Before
+camera: 1
+mic: 0
+After
+camera: 2
+mic: 0
+Turning switch on because process: 65835 turned camera on and Total is: 2
+At Save
+Device values:
+2
+0
+Thu Jul 6 13:52:44 CDT 2023
+/Users/samuelgubler/oversight/toggle_kasa_switch.sh -device microphone -event on -process 63386
+Before
+camera: 2
+mic: 0
+After
+camera: 2
+mic: 1
+Turning switch on because process: 63386 turned microphone on and Total is: 3
+At Save
+Device values:
+2
+1
+Thu Jul 6 13:52:57 CDT 2023
+/Users/samuelgubler/oversight/toggle_kasa_switch.sh -device camera -event off
+Before
+camera: 2
+mic: 1
+After
+camera: 1
+mic: 1
+Turning switch on because process:  turned camera off and Total is: 2
+At Save
+Device values:
+1
+1
+Thu Jul 6 13:53:07 CDT 2023
+/Users/samuelgubler/oversight/toggle_kasa_switch.sh -device camera -event on -process 65835
+Before
+camera: 1
+mic: 1
+After
+camera: 2
+mic: 1
+Turning switch on because process: 65835 turned camera on and Total is: 3
+At Save
+Device values:
+2
+1
+Thu Jul 6 13:53:09 CDT 2023
+/Users/samuelgubler/oversight/toggle_kasa_switch.sh -device camera -event off
+Before
+camera: 2
+mic: 1
+After
+camera: 1
+mic: 1
+Turning switch on because process:  turned camera off and Total is: 2
+At Save
+Device values:
+1
+1
+Thu Jul 6 13:53:16 CDT 2023
+/Users/samuelgubler/oversight/toggle_kasa_switch.sh -device camera -event off
+Before
+camera: 1
+mic: 1
+After
+camera: 0
+mic: 1
+Turning switch on because process:  turned camera off and Total is: 1
+At Save
+Device values:
+0
+1
+Thu Jul 6 13:53:30 CDT 2023
+/Users/samuelgubler/oversight/toggle_kasa_switch.sh -device camera -event on -process 63386
+Before
+camera: 0
+mic: 1
+After
+camera: 1
+mic: 1
+Turning switch on because process: 63386 turned camera on and Total is: 2
+At Save
+Device values:
+1
+1
+Thu Jul 6 13:53:39 CDT 2023
+/Users/samuelgubler/oversight/toggle_kasa_switch.sh -device camera -event off
+Thu Jul 6 13:53:39 CDT 2023
+/Users/samuelgubler/oversight/toggle_kasa_switch.sh -device microphone -event off
+Before
+camera: 1
+mic: 1
+After
+camera: 0
+mic: 1
+Turning switch on because process:  turned camera off and Total is: 1
+Before
+camera: 1
+mic: 1
+After
+At Save
+camera: 1
+Device values:
+mic: 0
+Turning switch on because process:  turned microphone off and Total is: 1
+At Save
+Device values:
+1
+1
+0
+0
+Thu Jul 6 13:59:35 CDT 2023
+/Users/samuelgubler/oversight/toggle_kasa_switch_mk2.sh -device camera -event on -process 66505
+Thu Jul 6 13:59:35 CDT 2023
+/Users/samuelgubler/oversight/toggle_kasa_switch_mk2.sh -device camera -event on -process 66505
+Before
+camera: 1
+mic: 0
+After
+camera: 2
+mic: 0
+Before
+Turning switch on because process: 66505 turned camera on and Total is: 2
+camera: 1
+mic: 0
+After
+camera: 2
+mic: 0
+Turning switch on because process: 66505 turned camera on and Total is: 2
+No --type defined, discovering..
+No --type defined, discovering..
+Turning on Hot Water Pump
+Turning on Hot Water Pump
+At Save
+Device values:
+2
+At Save
+Device values:
+0
+2
+0
+Thu Jul 6 13:59:51 CDT 2023
+/Users/samuelgubler/oversight/toggle_kasa_switch_mk2.sh -device camera -event off
+Before
+camera: 2
+mic: 0
+After
+camera: 1
+mic: 0
+Turning switch on because process:  turned camera off and Total is: 1
+No --type defined, discovering..
+Turning on Hot Water Pump
+At Save
+Device values:
+1
+0
+Thu Jul 6 14:01:20 CDT 2023
+/Users/samuelgubler/oversight/toggle_kasa_switch_mk2.sh -device camera -event on -process 66582
+Thu Jul 6 14:01:20 CDT 2023
+/Users/samuelgubler/oversight/toggle_kasa_switch_mk2.sh -device camera -event on -process 66582
+Before
+camera: 0
+mic: 0
+After
+camera: 1
+mic: 0
+Turning switch on because process: 66582 turned camera on and Total is: 1
+Before
+camera: 0
+mic: 0
+After
+camera: 1
+mic: 0
+Turning switch on because process: 66582 turned camera on and Total is: 1
+No --type defined, discovering..
+No --type defined, discovering..
+Turning on Hot Water Pump
+Turning on Hot Water Pump
+At Save
+Device values:
+1
+At Save
+Device values:
+0
+1
+0
+Thu Jul 6 14:01:26 CDT 2023
+/Users/samuelgubler/oversight/toggle_kasa_switch_mk2.sh -device camera -event off
+Before
+camera: 1
+mic: 0
+After
+camera: 0
+mic: 0
+Turning switch off because process:  turned camera off and Total is: 0
+No --type defined, discovering..
+Turning off Hot Water Pump
+At Save
+Device values:
+0
+0
